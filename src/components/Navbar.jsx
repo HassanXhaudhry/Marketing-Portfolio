@@ -48,7 +48,7 @@ const Navbar = () => {
               alt=""
               className="w-11 inline-block items-ceneter"
             />
-            <span className="text-[#263238]">RUSH HOUR</span>
+            <span className="text-[#263238] text-base">RUSH HOUR</span>
           </a>
         
           <ul className="md:flex space-x-12 hidden cursor-pointer">
@@ -71,7 +71,7 @@ const Navbar = () => {
             >
               Login
             </a>
-            <button className="bg-brandPrimary text-white py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGray">Sign up</button>
+            <button className="bg-brandPrimary text-white py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGrey">Sign up</button>
           </div>
 
           <div className="md:hidden">
@@ -92,7 +92,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={-100}
                 key={path}
-                className="block text-base text-white hover:text-brandPrimary first:font-medium "
+                className="block text-base text-white hover:text-neutralDGrey first:font-medium text-center"
               >{link}
               </Link> )
         }

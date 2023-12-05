@@ -7,11 +7,11 @@ import slider3 from "../../images/Community3.png";
 const Home = () => {
   return (
     <div id="home">
-      <div className="px-4 lg:px-14 max-w-screen-2x1 mx-auto min-h-screen h-screen">
+      <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen h-screen">
         <Carousel className="w-full mx-auto sm:pl-24 ">
-          <div className="my-28 md:my-8  flex flex-col md:flex-row-reverse items-center justify-between gap-10">
-            <div className="h-auto max-w-md pr-20">
-              <img src={slider1} alt="" />
+          <div className="my-28 md:my-8  flex flex-col md:flex-row-reverse items-center justify-between">
+            <div className=" max-w-md pr-20">
+              <img className="w-64 max-w-full h-auto pt-5" src={slider1} alt="" />
             </div>
             <div className="md:w-1/2 px-10 pl-30">
               <h1 className="text-4xl font-semibold mb-4 text-neutralDGrey md:w-3/4 leading-snug">
@@ -29,7 +29,7 @@ const Home = () => {
           </div>
           <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
             <div className="h-auto max-w-md pr-20">
-              <img src={slider2} alt="" />
+              <img className="w-64 max-w-full h-auto pt-15 sm:pl-5" src={slider2} alt="" />
             </div>
             <div className="md:w-1/2 px-10 pl-30">
             <h1 className="text-4xl font-semibold mb-4 text-neutralDGrey md:w-3/4 leading-snug">
@@ -47,7 +47,7 @@ const Home = () => {
           </div>
           <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
             <div className="h-auto max-w-md pr-20">
-              <img src={slider3} alt="" />
+              <img className="w-64 max-w-full h-auto pt-5" src={slider3} alt="" />
             </div>
             <div className="md:w-1/2 px-10 pl-30">
             <h1 className="text-4xl font-semibold mb-4 text-neutralDGrey md:w-3/4 leading-snug">

@@ -6,10 +6,10 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const Products = () => {
   return (
     <div>
-      <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8" id="product">
+      <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8 " id="product">
         <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
           <div>
-            <img className="md:w-32 sm:w-6" src={login} alt="" />
+            <img className="md:w-20 sm:w-24" src={login} alt="" />
           </div>
           <div className="md:w-3/5 mx-auto">
             <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/5">

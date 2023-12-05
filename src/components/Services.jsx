@@ -42,13 +42,13 @@ const Services = () => {
         </p>
 
         <div className="my-12 flex flex-wrap justify-center items-center gap-4 sm:gap-8 md:gap-12 lg:gap-20">
-          <img className="sm:w-24 md:w-24 lg:w-24 " src={img1} alt="" />
-          <img className="sm:w-24 md:w-24 lg:w-24" src={img2} alt="" />
-          <img className="sm:w-24 md:w-24 lg:w-24" src={img3} alt="" />
-          <img className="sm:w-24 md:w-24 lg:w-24" src={img4} alt="" />
-          <img className="sm:w-24 md:w-24 lg:w-24" src={img5} alt="" />
-          <img className="sm:w-24 md:w-24 lg:w-24" src={img6} alt="" />
-          <img className="sm:w-24 md:w-24 lg:w-24" src={img7} alt="" />
+          <img className="sm:w-16 md:w-24 lg:w-24 " src={img1} alt="" />
+          <img className="sm:w-16 md:w-24 lg:w-24" src={img2} alt="" />
+          <img className="sm:w-16 md:w-24 lg:w-24" src={img3} alt="" />
+          <img className="sm:w-16 md:w-24 lg:w-24" src={img4} alt="" />
+          <img className="sm:w-16 md:w-24 lg:w-24" src={img5} alt="" />
+          <img className="sm:w-16 md:w-24 lg:w-24" src={img6} alt="" />
+          <img className="sm:w-16 md:w-24 lg:w-24" src={img7} alt="" />
         </div>
       </div>
       <div className="mt-20 md:w1/2 mx-auto text-center">

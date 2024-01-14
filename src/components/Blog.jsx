@@ -1,12 +1,18 @@
 import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
+import laptop1 from "../../images/laptop1.jpg"
+import laptop2 from "../../images/laptop2.jpg"
+import laptop3 from "../../images/laptop3.jpg"
+
+
 
 const Blog = () => {
     const blogs =[
-        {id: 1, title: "Creating Streamline Safeguarding Processes with OneRen", image: "src/assets/laptop1.jpg"},
-        {id: 1, title: "What are your safeguarding responsibilities and how can you manage them?", image: "src/assets/laptop2.jpg"},
-        {id: 1, title: "Revamping the Membership Model with Triahlon Australia", image: "src/assets/laptop3.jpg"},
+        {id: 1, title: "Creating Streamline Safeguarding Processes with OneRen", image: laptop1},
+        {id: 1, title: "What are your safeguarding responsibilities and how can you manage them?", image: laptop2},
+        {id: 1, title: "Revamping the Membership Model with Triahlon Australia", image: laptop3},
     ];
+
   return (
     <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-12" id="faq">
       <div className="text-center md:w-1/2 mx-auto">

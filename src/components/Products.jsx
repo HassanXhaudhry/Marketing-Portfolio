@@ -2,6 +2,12 @@ import React from "react";
 import login from "../assets/login.png";
 import productslogo from '../assets/productslogo.png';
 import { FaArrowRightLong } from "react-icons/fa6";
+import product1 from "../assets/product1.png";
+import product2 from "../assets/product2.png";
+import product3 from "../assets/product3.png";
+import product4 from "../assets/product4.png";
+import product5 from "../assets/product5.png";
+import product6 from "../assets/product6.png";
 
 const Products = () => {
   return (
@@ -52,12 +58,12 @@ const Products = () => {
               <p className="text-base text-neutralDGrey mb-8">British Dragon Boat Association</p>
               <div>
               <div className="flex items-center gap-8 flex-wrap pb-5">
-              <img src="src/assets/product1.png" alt="" className="w-10 h-auto" />
-              <img src="src/assets/product2.png" alt="" className="w-10 h-auto" />
-              <img src="src/assets/product3.png" alt="" className="w-10 h-auto" />
-              <img src="src/assets/product4.png" alt="" className="w-10 h-auto" />
-              <img src="src/assets/product5.png" alt="" className="w-10 h-auto" />
-              <img src="src/assets/product6.png" alt="" className="w-10 h-auto" />
+              <img src={product1} alt="" className="w-10 h-auto" />
+              <img src={product2} alt="" className="w-10 h-auto" />
+              <img src={product3} alt="" className="w-10 h-auto" />
+              <img src={product4} alt="" className="w-10 h-auto" />
+              <img src={product5} alt="" className="w-10 h-auto" />
+              <img src={product6} alt="" className="w-10 h-auto" />
             </div>
             
                 <div className="flex items-center gap-8">

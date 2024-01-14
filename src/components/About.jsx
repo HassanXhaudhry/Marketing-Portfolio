@@ -1,5 +1,9 @@
 import React from "react";
 import pngegg3 from "../assets/pngegg3.png";
+import people from  "/images/people.png"
+import members from "/images/members.png"
+import hand from "/images/hand.png"
+import card from "/images/card.png" 
 const About = () => {
   return (
     <div>
@@ -46,7 +50,7 @@ const About = () => {
           <div className="mx-auto text-center md:w-1/2 max-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12">
     <div className="space-y-8">
         <div className="flex items-center gap-4">
-            <img className="w-10" src="src/assets/people.png" alt="" />
+            <img className="w-10" src={people} alt="" />
             <div>
                 <h4 className="text-2xl text-neutralDGrey font-semibold">
                     2,245,341
@@ -55,7 +59,7 @@ const About = () => {
             </div>
         </div>
         <div className="flex items-center gap-4">
-            <img className="w-12" src="src/assets/members.png" alt="" />
+            <img className="w-12" src={members} alt="" />
             <div>
                 <h4 className="text-2xl text-neutralDGrey font-semibold">
                     12,251
@@ -66,7 +70,7 @@ const About = () => {
     </div>
     <div className="space-y-8">
         <div className="flex items-center gap-4">
-            <img className="w-10" src="src/assets/hand.png" alt="" />
+            <img className="w-10" src={hand} alt="" />
             <div>
                 <h4 className="text-2xl text-neutralDGrey font-semibold">
                     2,243
@@ -75,7 +79,7 @@ const About = () => {
             </div>
         </div>
         <div className="flex items-center gap-4">
-            <img className="w-10" src="src/assets/card.png" alt="" />
+            <img className="w-10" src={card} alt="" />
             <div>
                 <h4 className="text-2xl text-neutralDGrey font-semibold">
                     1,445,641

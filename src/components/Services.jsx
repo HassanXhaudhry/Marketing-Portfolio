@@ -33,6 +33,7 @@ const Services = () => {
         "Our membership managment software provides full automation of membership renewal and payment",
       image: egg2,
     },
+    
   ];
   return (
     <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto bg-silverPrimary" id="services">
